@@ -15,8 +15,9 @@
     <div *ngIf="!showCamera">
       <ion-item *ngIf="textScanned" lines="none">
         <ion-label>
-          <p>Texte du QR Code</p>
-          <h2><b>{{ textScanned }}</b></h2>
+          <p>Texte du QR Code: cliquer sur le liens pour etre rediriger</p>
+          <a href="{{textScanned}}" target="_blank">{{ textScanned }}</a>
+          <!-- <h2><b>{{ textScanned }}</b></h2> -->
         </ion-label>
       </ion-item>
       <ion-button expand="block" (click)="scanCode()" >
