@@ -66,8 +66,8 @@
         pour tester le scan il faut ouvrir l'appareil photo et sur le navigateur il faut lancer run browser 
    ## pour des soucis de navigateur la couleur rose n'apparait pas dans le test des scans 
    
-> ![image](/images/sacan.PNG ) 
-> ![image](/images/scan.PNG ) 
+> ![image](/images/sacan.jpeg ) 
+> ![image](/images/scan.jpeg ) 
 
    ## une fois le code QR trouver l'appareil photo se ferme et l'appli nous retourne le code en texte  
      2. lancer yarn develop dans le dossiers resto_strapi :# yarn develop
