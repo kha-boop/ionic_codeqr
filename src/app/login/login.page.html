@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="rose" style="text-align: center;">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="../../assets/img/0.png" alt="logo" class="logo">
+    <ion-card-header>
+      <ion-card-title style="text-align: center"><strong>Authentification</strong> </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <form (submit)="login(loginForm.value)" [formGroup]="loginForm">
+        <ion-list>
+          <ion-item>
+            <ion-icon name="mail-outline"></ion-icon>
+            <ion-input formControlName="email" type="email" required placeholder="email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="key-outline"></ion-icon>
+            <ion-input [type]="typePassword ? 'text': 'password' " formControlName="password" required placeholder=" password"></ion-input>
+            <ion-icon [name]="iconPassword" (click)="voirPassword()"></ion-icon>
+          </ion-item>
+          <br>
+          <ion-button fill="solid" size="default" color="success" expand="block" type="submit">Valider</ion-button>
+        </ion-list>
+        <p style="text-align: right;">Creer un compte ?<a routerLink='/signup'>SignUp </a> </p>
+      </form>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="rose" style="text-align: center;">
+    <ion-title>    <img src="../../assets/img/4.jpg" alt="logo" class="logo">
+    </ion-title>
+
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,29 @@
+<ion-app>
+  <ion-content>
+    <ion-icon *ngIf="showCamera" class="frame" name="qr-scanner"></ion-icon>
+    <ion-header [translucent]="true">
+      <ion-toolbar color="rose">
+        <ion-title style="text-align: center"><strong>Scanner Un CodeQR</strong></ion-title>
+        <ion-buttons slot="end">
+          <ion-button *ngIf="showCamera" (click)="closeCamera()">
+            <ion-icon name="close"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+
+    <div *ngIf="!showCamera">
+      <ion-item *ngIf="textScanned" lines="none">
+        <ion-label>
+          <p>Texte du QR Code</p>
+          <h2><b>{{ textScanned }}</b></h2>
+        </ion-label>
+      </ion-item>
+      <ion-button expand="block" (click)="scanCode()" >
+        <ion-icon slot="start" name="qr-scanner"></ion-icon>
+        Scanner un QR Code
+      </ion-button>
+    </div>
+
+  </ion-content>
+</ion-app>
