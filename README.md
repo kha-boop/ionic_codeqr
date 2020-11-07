@@ -1,17 +1,8 @@
-### Mamadou idrissa NIANG, Master 2 systemes et reseaux telecoms
+### Ndeye khady seck , Master 2 systemes et reseau telecoms
 > > >   > ![image](/img/fin.PNG)
-# ionic-capacitor-strapi 
+# ionic-CodeQr-strapi 
  Bonjour,
 
-    
-# PLAN
-
-    * Introduction
-    * Prérequis
-    * Utilisations
-    * Déploiement
-    * Tests
-    * Conclusion
 
 # A. Introduction
     Dans le cadre de cet exercice, nous allons poursuivre la réalisation de notre travail pratique sur 
