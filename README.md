@@ -1,5 +1,5 @@
 ### Ndeye khady seck , Master 2 systemes et reseau telecoms
-> > >   > ![images](/img/fin.PNG)
+> > >   > ![image](/images/fin.PNG)
 # ionic-CodeQr-strapi 
  Bonjour,
 
@@ -60,7 +60,7 @@
      Dans cette partie on a juste nous allons utiliser un navigateur pour lancer l'application
      aller dans le dossiers resto -> src -> environement -> environement.ts
      changer 192.168.1.108 par votre adresse ip sur le quel tourne votre serveur api(strapi) et sauvegarder
-> ![image](/img/fin.PNG ) 
+> ![image](/images/fin.PNG ) 
 
      1. lancer ionic serve dans le dossiers resto
      2. lancer yarn develop dans le dossiers resto_strapi
