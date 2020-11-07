@@ -16,7 +16,7 @@
     
     1. telecharger le dossiers en zip
     2. extraire le fichiers 
-            1. codeQr :        dossiers ionic
+            1. codeQr_ionic :        dossiers ionic
             2. codeQr_strapi : dossiers strapi
 
     3. Pour commencer avec Ionic Framework, la seule exigence est un environnement Node & npm
@@ -62,8 +62,15 @@
      changer 192.168.1.108 par votre adresse ip sur le quel tourne votre serveur api(strapi) et sauvegarder
 > ![image](/images/fin.PNG ) 
 
-     1. lancer ionic serve dans le dossiers resto
-     2. lancer yarn develop dans le dossiers resto_strapi
+     1. lancer :# ionic cordova run browser
+        pour tester le scan il faut ouvrir l'appareil photo et sur le navigateur il faut lancer run browser 
+   ## pour des soucis de navigateur la couleur rose n'apparait pas dans le test des scans 
+   
+> ![image](/images/sacan.PNG ) 
+> ![image](/images/scan.PNG ) 
+
+   ## une fois le code QR trouver l'appareil photo se ferme et l'appli nous retourne le code en texte  
+     2. lancer yarn develop dans le dossiers resto_strapi :# yarn develop
 
  
  # D. Déploiement
